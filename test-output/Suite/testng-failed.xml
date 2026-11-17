@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test_Pckg.Home_Test">
+        <methods>
+          <include name="object_mthd"/>
+          <include name="logo_verification"/>
+          <include name="setup"/>
+          <include name="user_details"/>
+          <include name="logout_verify"/>
+        </methods>
+      </class> <!-- Test_Pckg.Home_Test -->
+      <class name="Test_Pckg.Login_Test">
+        <methods>
+          <include name="object_mthd"/>
+          <include name="logintest_mthd"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Test_Pckg.Login_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
